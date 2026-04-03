@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala de Estar | Finca Villa Andrea Chiquinquirá</title>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/50/2d5a27/farm-house.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .brand-font { font-family: 'Playfair Display', serif; }
+        .bg-brand { background-color: #2d5a27; }
+        .text-brand { color: #2d5a27; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900">
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md text-stone-900 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex flex-col items-start">
+                <span class="text-2xl font-bold text-brand brand-font leading-none">Villa Andrea</span>
+                <span class="text-[10px] uppercase tracking-[0.3em] text-stone-500">Chiquinquirá</span>
+            </a>
+            <a href="index.html" class="text-xs uppercase tracking-widest hover:text-brand font-bold">Volver al Inicio</a>
+        </nav>
+    </header>
+
+    <main class="pt-24">
+        <section class="py-16">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl font-bold mb-8 text-stone-900 brand-font">Sala de Estar</h1>
+                <p class="text-stone-600 text-lg mb-12 max-w-3xl">El corazón de la casa, un espacio acogedor diseñado para compartir en familia o con amigos frente a una buena charla.</p>
+                
+                <!-- Galería -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+                    <div class="h-96 rounded-3xl overflow-hidden shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&q=80&w=800" alt="Sala Vista 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="h-96 rounded-3xl overflow-hidden shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&q=80&w=800" alt="Sala Vista 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="h-96 rounded-3xl overflow-hidden shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800" alt="Sala Vista 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                    </div>
+                </div>
+
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-stone-100">
+                    <h2 class="text-2xl font-bold mb-6 brand-font">Características</h2>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <li class="flex items-center space-x-4">
+                            <i class="fa-solid fa-couch text-brand text-xl"></i>
+                            <span class="text-stone-600">Sofás amplios y confortables</span>
+                        </li>
+                        <li class="flex items-center space-x-4">
+                            <i class="fa-solid fa-fire text-brand text-xl"></i>
+                            <span class="text-stone-600">Ambiente cálido y acogedor</span>
+                        </li>
+                        <li class="flex items-center space-x-4">
+                            <i class="fa-solid fa-music text-brand text-xl"></i>
+                            <span class="text-stone-600">Sistema de sonido ambiental</span>
+                        </li>
+                        <li class="flex items-center space-x-4">
+                            <i class="fa-solid fa-book text-brand text-xl"></i>
+                            <span class="text-stone-600">Rincón de lectura</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-stone-500 text-sm">&copy; 2024 Finca Villa Andrea Chiquinquirá. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
