@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sala de Estar | Finca Villa Andrea Chiquinquirá</title>
+    <title>Pérgola | Finca Villa Andrea Chiquinquirá</title>
     <link rel="icon" type="image/png" href="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/Untitled%20design%20(4).png?updatedAt=1775193832110">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -22,7 +22,7 @@
                 <span class="text-2xl font-bold text-brand brand-font leading-none">Villa Andrea</span>
                 <span class="text-[10px] uppercase tracking-[0.3em] text-stone-500">Chiquinquirá</span>
             </a>
-            <a href="index.html" class="text-xs uppercase tracking-widest hover:text-brand font-bold">Volver al Inicio</a>
+            <a href="index.html#eventos" class="text-xs uppercase tracking-widest hover:text-brand font-bold">Volver a Eventos</a>
         </nav>
     </header>
 
@@ -31,19 +31,19 @@
             <div class="container mx-auto px-6">
                 <!-- Navegación Superior -->
                 <div class="mb-12 flex justify-between items-center">
-                    <a href="cocina.html" class="flex items-center space-x-4 group text-stone-400 hover:text-brand transition-all">
+                    <a href="index.html#eventos" class="flex items-center space-x-4 group text-stone-400 hover:text-brand transition-all">
                         <div class="w-12 h-12 border border-stone-200 rounded-full flex items-center justify-center group-hover:border-brand">
                             <i class="fa-solid fa-arrow-left"></i>
                         </div>
                         <div class="hidden md:block">
                             <p class="text-[10px] uppercase tracking-widest">Anterior</p>
-                            <p class="font-bold text-stone-900">Cocina</p>
+                            <p class="font-bold text-stone-900">Volver a Eventos</p>
                         </div>
                     </a>
-                    <a href="comedor.html" class="flex items-center space-x-4 group text-right text-stone-400 hover:text-brand transition-all">
+                    <a href="salon-social.html" class="flex items-center space-x-4 group text-right text-stone-400 hover:text-brand transition-all">
                         <div class="hidden md:block">
                             <p class="text-[10px] uppercase tracking-widest">Siguiente</p>
-                            <p class="font-bold text-stone-900">Comedor</p>
+                            <p class="font-bold text-stone-900">Salón Social</p>
                         </div>
                         <div class="w-12 h-12 border border-stone-200 rounded-full flex items-center justify-center group-hover:border-brand">
                             <i class="fa-solid fa-arrow-right"></i>
@@ -51,53 +51,61 @@
                     </a>
                 </div>
 
-                <h1 class="text-4xl md:text-6xl font-bold mb-8 text-stone-900 brand-font">Sala de Estar</h1>
-                <p class="text-stone-600 text-lg mb-12 max-w-3xl">El corazón de la casa, un espacio acogedor diseñado para compartir en familia o con amigos frente a una buena charla.</p>
+                <h1 id="titulo-pergola" class="text-4xl md:text-6xl font-bold mb-8 text-stone-900 brand-font">La Pérgola</h1>
+                <p class="text-stone-600 text-lg mb-12 max-w-3xl">Un espectacular y rústico espacio tipo pérgola, ideal para celebraciones más íntimas, reuniones campestres o familiares en un ambiente cálido y acogedor rodeado de vistas increíbles.</p>
                 
                 <!-- Galería -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-                    <div class="h-80 rounded-3xl overflow-hidden shadow-xl">
-                        <video autoplay loop muted playsinline class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
-                            <source src="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/FOTOS%20VERSI%C3%93N%202.0/0615(10).mp4" type="video/mp4">
-                        </video>
+                <div class="space-y-8 mb-16">
+                    <!-- Imagen Principal de Portada -->
+                    <div class="bg-white rounded-3xl overflow-hidden shadow-xl max-w-5xl mx-auto border border-stone-100">
+                        <img src="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/FOTOS%20VERSI%C3%93N%202.0/D3S_9519-HDR.JPG?updatedAt=1781498719950" alt="Pérgola en Villa Andrea" class="w-full h-auto object-cover max-h-[600px] hover:scale-[1.01] transition-transform duration-700">
                     </div>
-                    <div class="h-80 rounded-3xl overflow-hidden shadow-xl">
-                        <img src="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/FOTOS%20VERSI%C3%93N%202.0/D3S_9132-HDR.JPG?updatedAt=1781498719594" alt="Sala Vista 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
-                    </div>
-                    <div class="h-80 rounded-3xl overflow-hidden shadow-xl">
-                        <img src="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/FOTOS%20VERSI%C3%93N%202.0/D3S_9141-HDR.JPG?updatedAt=1781498722539" alt="Sala Vista 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
-                    </div>
-                    <div class="h-80 rounded-3xl overflow-hidden shadow-xl">
-                        <img src="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/FOTOS%20VERSI%C3%93N%202.0/D3S_9525-HDR.JPG?updatedAt=1781498717927" alt="Sala Vista 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+
+                    <!-- Malla de Detalles (Video e Imágenes Adicionales) -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+                        <div class="h-80 rounded-3xl overflow-hidden shadow-xl">
+                            <video autoplay loop muted playsinline class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                                <source src="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/FOTOS%20VERSI%C3%93N%202.0/0615(11).mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="h-80 rounded-3xl overflow-hidden shadow-xl">
+                            <img src="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/FOTOS%20VERSI%C3%93N%202.0/D3S_9050-HDR-2.JPG?updatedAt=1781498718555" alt="Pérgola Detalle 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="h-80 rounded-3xl overflow-hidden shadow-xl">
+                            <img src="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/FOTOS%20VERSI%C3%93N%202.0/D3S_9059-HDR.JPG?updatedAt=1781498712673" alt="Pérgola Detalle 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="h-80 rounded-3xl overflow-hidden shadow-xl">
+                            <img src="https://ik.imagekit.io/sio0ldtn8/Finca%20Villa%20Andrea/FOTOS%20VERSI%C3%93N%202.0/D3S_9060-HDR.JPG?updatedAt=1781498721070" alt="Pérgola Detalle 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white p-10 rounded-3xl shadow-sm border border-stone-100">
-                    <h2 class="text-2xl font-bold mb-6 brand-font">Características</h2>
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-stone-100 max-w-5xl mx-auto">
+                    <h2 class="text-2xl font-bold mb-6 brand-font">Detalles de la Pérgola</h2>
                     <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <li class="flex items-center space-x-4">
+                            <i class="fa-solid fa-seedling text-brand text-xl"></i>
+                            <span class="text-stone-600">Ambiente rústico y natural</span>
+                        </li>
+                        <li class="flex items-center space-x-4">
                             <i class="fa-solid fa-chair text-brand text-xl"></i>
-                            <span class="text-stone-600">Sillas confortables</span>
+                            <span class="text-stone-600">Amoblado versátil disponible para grupos</span>
                         </li>
                         <li class="flex items-center space-x-4">
-                            <i class="fa-solid fa-heart text-brand text-xl"></i>
-                            <span class="text-stone-600">Ambiente cálido y acogedor</span>
+                            <i class="fa-solid fa-sun text-brand text-xl"></i>
+                            <span class="text-stone-600">Excelente iluminación natural</span>
                         </li>
                         <li class="flex items-center space-x-4">
-                            <i class="fa-solid fa-music text-brand text-xl"></i>
-                            <span class="text-stone-600">Sistema de sonido ambiental</span>
-                        </li>
-                        <li class="flex items-center space-x-4">
-                            <i class="fa-solid fa-fire text-brand text-xl"></i>
-                            <span class="text-stone-600">Chimenea</span>
+                            <i class="fa-solid fa-glass-cheers text-brand text-xl"></i>
+                            <span class="text-stone-600">Perfecto para fechas familiares o aniversarios</span>
                         </li>
                     </ul>
                     <!-- Navegación Inferior (Solo flechas) -->
                     <div class="mt-10 pt-8 border-t border-stone-100 flex justify-between items-center">
-                        <a href="cocina.html" class="w-10 h-10 border border-stone-200 rounded-full flex items-center justify-center text-stone-400 hover:border-brand hover:text-brand transition-all">
+                        <a href="index.html#eventos" class="w-10 h-10 border border-stone-200 rounded-full flex items-center justify-center text-stone-400 hover:border-brand hover:text-brand transition-all">
                             <i class="fa-solid fa-arrow-left"></i>
                         </a>
-                        <a href="comedor.html" class="w-10 h-10 border border-stone-200 rounded-full flex items-center justify-center text-stone-400 hover:border-brand hover:text-brand transition-all">
+                        <a href="salon-social.html" class="w-10 h-10 border border-stone-200 rounded-full flex items-center justify-center text-stone-400 hover:border-brand hover:text-brand transition-all">
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
