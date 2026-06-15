@@ -1,5 +1,6 @@
 {
   "description": "Finca para descanso - Naturaleza, tranquilidad, exclusividad ",
   "requestFramePermissions": [],
-  "name": "Finca Villa Andrea Chiquinquirá"
+  "name": "Finca Villa Andrea Chiquinquirá",
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
